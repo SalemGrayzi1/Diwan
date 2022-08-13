@@ -1,9 +1,0 @@
-streamlit
-pandas
-plotly
-scikit-learn
-seaborn
-bokeh
-markdown
-hydralit_components
-hydralit 
