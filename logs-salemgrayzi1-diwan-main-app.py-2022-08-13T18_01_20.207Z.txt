@@ -1,0 +1,399 @@
+
+[     UTC     ] Logs for salemgrayzi1-diwan-app-lkhi2r.streamlitapp.com/
+────────────────────────────────────────────────────────────────────────────────────────
+[08:57:18] 🚀 Starting up repository: 'diwan', branch: 'main', main module: 'app.py'
+[08:57:18] 🐙 Cloning repository...
+[08:57:20] 🐙 Enumerating objects: 37, done.
+Counting objects:   2% (1/37)Counting objects:   5% (2/37)Counting objects:   8% (3/37)Counting objects:  10% (4/37)Counting objects:  13% (5/37)Counting objects:  16% (6/37)Counting objects:  18% (7/37)Counting objects:  21% (8/37)Counting objects:  24% (9/37)Counting objects:  27% (10/37)Counting objects:  29% (11/37)Counting objects:  32% (12/37)Counting objects:  35% (13/37)Counting objects:  37% (14/37)Counting objects:  40% (15/37)Counting objects:  43% (16/37)Counting objects:  45% (17/37)Counting objects:  48% (18/37)Counting objects:  51% (19/37)Counting objects:  54% (20/37)Counting objects:  56% (21/37)Counting objects:  59% (22/37)Counting objects:  62% (23/37)Counting objects:  64% (24/37)Counting objects:  67% (25/37)Counting objects:  70% (26/37)Counting objects:  72% (27/37)Counting objects:  75% (28/37)Counting objects:  78% (29/37)Counting objects:  81% (30/37)Counting objects:  83% (31/37)Counting objects:  86% (32/37)Counting objects:  89% (33/37)Counting objects:  91% (34/37)Counting objects:  94% (35/37)Counting objects:  97% (36/37)Counting objects: 100% (37/37)Counting objects: 100% (37/37), done.
+Compressing objects:   2% (1/34)Compressing objects:   5% (2/34)Compressing objects:   8% (3/34)Compressing objects:  11% (4/34)Compressing objects:  14% (5/34)Compressing objects:  17% (6/34)Compressing objects:  20% (7/34)Compressing objects:  23% (8/34)Compressing objects:  26% (9/34)Compressing objects:  29% (10/34)Compressing objects:  32% (11/34)Compressing objects:  35% (12/34)Compressing objects:  38% (13/34)Compressing objects:  41% (14/34)Compressing objects:  44% (15/34)Compressing objects:  47% (16/34)Compressing objects:  50% (17/34)Compressing objects:  52% (18/34)Compressing objects:  55% (19/34)Compressing objects:  58% (20/34)Compressing objects:  61% (21/34)Compressing objects:  64% (22/34)Compressing objects:  67% (23/34)Compressing objects:  70% (24/34)Compressing objects:  73% (25/34)Compressing objects:  76% (26/34)Compressing objects:  79% (27/34)Compressing objects:  82% (28/34)Compressing objects:  85% (29/34)Compressing objects:  88% (30/34)Compressing objects:  91% (31/34)Compressing objects:  94% (32/34)Compressing objects:  97% (33/34)Compressing objects: 100% (34/34)Compressing objects: 100% (34/34), done.
+Total 37 (delta 14), reused 0 (delta 0), pack-reused 0
+
+[08:57:20] 🐙 Cloned repository!
+[08:57:20] 🐙 Pulling code changes from Github...
+[08:57:21] 📦 Processing dependencies...
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Collecting streamlit
+  Downloading streamlit-1.12.0-py2.py3-none-any.whl (9.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.1/9.1 MB 118.5 MB/s eta 0:00:00[2022-08-13 08:57:22.644576] 
+Collecting pandas
+  Downloading pandas-1.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.7/11.7 MB 196.7 MB/s eta 0:00:00[2022-08-13 08:57:23.058073] 
+Collecting plotly
+  Downloading plotly-5.10.0-py2.py3-none-any.whl (15.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.2/15.2 MB 243.5 MB/s eta 0:00:00[2022-08-13 08:57:23.276051] 
+Collecting scikit-learn
+  Downloading scikit_learn-1.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (30.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 30.8/30.8 MB 164.5 MB/s eta 0:00:00[2022-08-13 08:57:23.840731] 
+Collecting seaborn
+  Downloading seaborn-0.11.2-py3-none-any.whl (292 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 292.8/292.8 KB 177.5 MB/s eta 0:00:00[2022-08-13 08:57:23.962977] 
+Collecting bokeh
+  Downloading bokeh-2.4.3-py3-none-any.whl (18.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.5/18.5 MB 207.7 MB/s eta 0:00:00[2022-08-13 08:57:24.147481] 
+Collecting markdown
+  Downloading Markdown-3.4.1-py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.3/93.3 KB 166.6 MB/s eta 0:00:00[2022-08-13 08:57:24.257017] 
+Collecting hydralit_components
+  Downloading hydralit_components-1.0.10.tar.gz (20.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.1/20.1 MB 219.3 MB/s eta 0:00:00[2022-08-13 08:57:24.394212] 
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting hydralit
+  Downloading hydralit-1.0.13.tar.gz (28 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pympler>=0.9
+  Downloading Pympler-1.0.1-py3-none-any.whl (164 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 164.8/164.8 KB 151.4 MB/s eta 0:00:00[2022-08-13 08:57:29.644387] 
+Collecting click>=7.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 KB 121.2 MB/s eta 0:00:00[2022-08-13 08:57:29.712155] 
+Collecting watchdog
+  Downloading watchdog-2.1.9-py3-none-manylinux2014_x86_64.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 KB 211.3 MB/s eta 0:00:00[2022-08-13 08:57:29.842478] 
+Collecting numpy
+  Downloading numpy-1.23.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.1/17.1 MB 226.2 MB/s eta 0:00:00[2022-08-13 08:57:31.017836] 
+Collecting validators>=0.2
+  Downloading validators-0.20.0.tar.gz (30 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting importlib-metadata>=1.4
+  Downloading importlib_metadata-4.12.0-py3-none-any.whl (21 kB)
+Collecting typing-extensions>=3.10.0.0
+  Downloading typing_extensions-4.3.0-py3-none-any.whl (25 kB)
+Collecting tornado>=5.0
+  Downloading tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 424.0/424.0 KB 231.0 MB/s eta 0:00:00[2022-08-13 08:57:31.699176] 
+Collecting protobuf<4,>=3.12
+  Downloading protobuf-3.20.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 245.3 MB/s eta 0:00:00[2022-08-13 08:57:32.119623] 
+Collecting pyarrow>=4.0
+  Downloading pyarrow-9.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (35.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 214.4 MB/s eta 0:00:00[2022-08-13 08:57:32.493566] 
+Collecting blinker>=1.0.0
+  Downloading blinker-1.5-py2.py3-none-any.whl (12 kB)
+Collecting semver
+  Downloading semver-2.13.0-py2.py3-none-any.whl (12 kB)
+Collecting altair>=3.2.0
+  Downloading altair-4.2.0-py3-none-any.whl (812 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 812.8/812.8 KB 150.9 MB/s eta 0:00:00[2022-08-13 08:57:32.698474] 
+Collecting python-dateutil
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 KB 132.7 MB/s eta 0:00:00[2022-08-13 08:57:32.774012] 
+Collecting rich>=10.11.0
+  Downloading rich-12.5.1-py3-none-any.whl (235 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 235.6/235.6 KB 145.4 MB/s eta 0:00:00[2022-08-13 08:57:32.928431] 
+Collecting requests>=2.4
+  Downloading requests-2.28.1-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 KB 119.0 MB/s eta 0:00:00[2022-08-13 08:57:33.048283] 
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting gitpython!=3.1.19
+  Downloading GitPython-3.1.27-py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.2/181.2 KB 207.7 MB/s eta 0:00:00[2022-08-13 08:57:33.183492] 
+Collecting packaging>=14.1
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.8/40.8 KB 169.4 MB/s eta 0:00:00[2022-08-13 08:57:33.248995] 
+Collecting cachetools>=4.0
+  Downloading cachetools-5.2.0-py3-none-any.whl (9.3 kB)
+Collecting pydeck>=0.1.dev5
+  Downloading pydeck-0.7.1-py2.py3-none-any.whl (4.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 252.5 MB/s eta 0:00:00[2022-08-13 08:57:33.363120] 
+Collecting pillow>=6.2.0
+  Downloading Pillow-9.2.0-cp39-cp39-manylinux_2_28_x86_64.whl (3.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 243.3 MB/s eta 0:00:00[2022-08-13 08:57:33.884923] 
+Collecting tzlocal>=1.1
+  Downloading tzlocal-4.2-py3-none-any.whl (19 kB)
+Collecting pytz>=2020.1
+  Downloading pytz-2022.2.1-py2.py3-none-any.whl (500 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 500.6/500.6 KB 209.7 MB/s eta 0:00:00[2022-08-13 08:57:34.085478] 
+Collecting tenacity>=6.2.0
+  Downloading tenacity-8.0.1-py3-none-any.whl (24 kB)
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting scipy>=1.3.2
+  Downloading scipy-1.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (43.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.9/43.9 MB 218.1 MB/s eta 0:00:00[2022-08-13 08:57:34.782524] 
+Collecting joblib>=1.0.0
+  Downloading joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.0/307.0 KB 236.9 MB/s eta 0:00:00[2022-08-13 08:57:34.911887] 
+Collecting matplotlib>=2.2
+  Downloading matplotlib-3.5.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 213.7 MB/s eta 0:00:00[2022-08-13 08:57:35.327272] 
+Collecting Jinja2>=2.9
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 189.4 MB/s eta 0:00:00[2022-08-13 08:57:35.420809] 
+Collecting PyYAML>=3.10
+  Downloading PyYAML-6.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (661 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 661.8/661.8 KB 258.1 MB/s eta 0:00:00[2022-08-13 08:57:35.559237] 
+Collecting lxml
+  Downloading lxml-4.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (7.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 224.0 MB/s eta 0:00:00[2022-08-13 08:57:36.093796] 
+Collecting bs4
+  Downloading bs4-0.0.1.tar.gz (1.1 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting compress_pickle
+  Downloading compress_pickle-2.1.0-py3-none-any.whl (24 kB)
+Collecting toolz
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.8/55.8 KB 111.2 MB/s eta 0:00:00[2022-08-13 08:57:36.541840] 
+Collecting entrypoints
+  Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Collecting jsonschema>=3.0
+  Downloading jsonschema-4.9.1-py3-none-any.whl (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 KB 136.3 MB/s eta 0:00:00[2022-08-13 08:57:36.673574] 
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.9-py3-none-any.whl (63 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.1/63.1 KB 162.0 MB/s eta 0:00:00[2022-08-13 08:57:36.766576] 
+Collecting zipp>=0.5
+  Downloading zipp-3.8.1-py3-none-any.whl (5.6 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.34.4-py3-none-any.whl (944 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 944.1/944.1 KB 244.4 MB/s eta 0:00:00[2022-08-13 08:57:37.112913] 
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 195.3 MB/s eta 0:00:00[2022-08-13 08:57:37.299920] 
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting pyparsing>=2.2.1
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.3/98.3 KB 138.8 MB/s eta 0:00:00[2022-08-13 08:57:37.495985] 
+Collecting traitlets>=4.3.2
+  Downloading traitlets-5.3.0-py3-none-any.whl (106 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 106.8/106.8 KB 142.8 MB/s eta 0:00:00[2022-08-13 08:57:37.760063] 
+Collecting ipykernel>=5.1.2
+  Downloading ipykernel-6.15.1-py3-none-any.whl (132 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.9/132.9 KB 121.3 MB/s eta 0:00:00[2022-08-13 08:57:37.925816] 
+Collecting ipywidgets>=7.0.0
+  Downloading ipywidgets-7.7.1-py2.py3-none-any.whl (123 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.4/123.4 KB 145.5 MB/s eta 0:00:00[2022-08-13 08:57:38.174391] 
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2022.6.15-py3-none-any.whl (160 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.2/160.2 KB 166.3 MB/s eta 0:00:00[2022-08-13 08:57:38.452195] 
+Collecting charset-normalizer<3,>=2
+  Downloading charset_normalizer-2.1.0-py3-none-any.whl (39 kB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 KB 147.5 MB/s eta 0:00:00[2022-08-13 08:57:38.600661] 
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.11-py2.py3-none-any.whl (139 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.9/139.9 KB 149.5 MB/s eta 0:00:00[2022-08-13 08:57:38.739752] 
+Collecting commonmark<0.10.0,>=0.9.0
+  Downloading commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 51.1/51.1 KB 123.9 MB/s eta 0:00:00[2022-08-13 08:57:38.828954] 
+Collecting pygments<3.0.0,>=2.6.0
+  Downloading Pygments-2.12.0-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 221.3 MB/s eta 0:00:00[2022-08-13 08:57:38.920686] 
+Collecting pytz-deprecation-shim
+  Downloading pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl (15 kB)
+Collecting decorator>=3.4.0
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.11.1-py3-none-any.whl (128 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.2/128.2 KB 206.3 MB/s eta 0:00:00[2022-08-13 08:57:39.178465] 
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
+Collecting jupyter-client>=6.1.12
+  Downloading jupyter_client-7.3.4-py3-none-any.whl (132 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.1/132.1 KB 195.2 MB/s eta 0:00:00[2022-08-13 08:57:39.497181] 
+Collecting debugpy>=1.0
+  Downloading debugpy-1.6.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 219.1 MB/s eta 0:00:00[2022-08-13 08:57:39.786474] 
+Collecting ipython>=7.23.1
+  Downloading ipython-8.4.0-py3-none-any.whl (750 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 750.8/750.8 KB 149.4 MB/s eta 0:00:00[2022-08-13 08:57:39.957103] 
+Collecting matplotlib-inline>=0.1
+  Downloading matplotlib_inline-0.1.3-py3-none-any.whl (8.2 kB)
+Collecting psutil
+  Downloading psutil-5.9.1-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (281 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 281.1/281.1 KB 211.0 MB/s eta 0:00:00[2022-08-13 08:57:40.252587] 
+Collecting pyzmq>=17
+  Downloading pyzmq-23.2.1-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 248.6 MB/s eta 0:00:00[2022-08-13 08:57:40.652079] 
+Collecting nest-asyncio
+  Downloading nest_asyncio-1.5.5-py3-none-any.whl (5.2 kB)
+Collecting widgetsnbextension~=3.6.0
+  Downloading widgetsnbextension-3.6.1-py2.py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 116.9 MB/s eta 0:00:00[2022-08-13 08:57:40.904681] 
+Collecting jupyterlab-widgets>=1.0.0
+  Downloading jupyterlab_widgets-1.1.1-py3-none-any.whl (245 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 245.3/245.3 KB 162.1 MB/s eta 0:00:00[2022-08-13 08:57:41.009326] 
+Collecting ipython-genutils~=0.2.0
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting attrs>=17.4.0
+  Downloading attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.8/58.8 KB 146.1 MB/s eta 0:00:00[2022-08-13 08:57:41.244735] 
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.18.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (115 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 115.6/115.6 KB 114.2 MB/s eta 0:00:00[2022-08-13 08:57:41.344851] 
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.3.2.post1-py3-none-any.whl (37 kB)
+Collecting tzdata
+  Downloading tzdata-2022.2-py2.py3-none-any.whl (336 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 336.4/336.4 KB 137.3 MB/s eta 0:00:00[2022-08-13 08:57:41.821213] 
+Collecting jedi>=0.16
+  Downloading jedi-0.18.1-py2.py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 245.2 MB/s eta 0:00:00[2022-08-13 08:57:42.060452] 
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0
+  Downloading prompt_toolkit-3.0.30-py3-none-any.whl (381 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 381.7/381.7 KB 220.2 MB/s eta 0:00:00[2022-08-13 08:57:42.191870] 
+Collecting pexpect>4.3
+  Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 KB 188.5 MB/s eta 0:00:00[2022-08-13 08:57:42.244380] 
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting stack-data
+  Downloading stack_data-0.3.0-py3-none-any.whl (23 kB)
+Collecting setuptools>=18.5
+  Downloading setuptools-64.0.3-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 142.7 MB/s eta 0:00:00[2022-08-13 08:57:42.917420] 
+Collecting jupyter-core>=4.9.2
+  Downloading jupyter_core-4.11.1-py3-none-any.whl (88 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.4/88.4 KB 127.4 MB/s eta 0:00:00[2022-08-13 08:57:43.089119] 
+Collecting notebook>=4.4.1
+  Downloading notebook-6.4.12-py3-none-any.whl (9.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 168.3 MB/s eta 0:00:00[2022-08-13 08:57:43.557270] 
+Collecting parso<0.9.0,>=0.8.0
+  Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.8/100.8 KB 130.1 MB/s eta 0:00:00[2022-08-13 08:57:43.777698] 
+Collecting nbformat
+  Downloading nbformat-5.4.0-py3-none-any.whl (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.3/73.3 KB 110.5 MB/s eta 0:00:00[2022-08-13 08:57:44.021864] 
+Collecting prometheus-client
+  Downloading prometheus_client-0.14.1-py3-none-any.whl (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 KB 163.7 MB/s eta 0:00:00[2022-08-13 08:57:44.108297] 
+Collecting Send2Trash>=1.8.0
+  Downloading Send2Trash-1.8.0-py3-none-any.whl (18 kB)
+Collecting terminado>=0.8.3
+  Downloading terminado-0.15.0-py3-none-any.whl (16 kB)
+Collecting argon2-cffi
+  Downloading argon2_cffi-21.3.0-py3-none-any.whl (14 kB)
+Collecting nbconvert>=5
+  Downloading nbconvert-6.5.3-py3-none-any.whl (563 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 563.8/563.8 KB 271.4 MB/s eta 0:00:00[2022-08-13 08:57:44.351544] 
+Collecting ptyprocess>=0.5
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting pure-eval
+  Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting executing
+  Downloading executing-0.9.1-py2.py3-none-any.whl (16 kB)
+Collecting asttokens
+  Downloading asttokens-2.0.7-py2.py3-none-any.whl (23 kB)
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
+Collecting nbclient>=0.5.0
+  Downloading nbclient-0.6.6-py3-none-any.whl (71 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.8/71.8 KB 114.3 MB/s eta 0:00:00[2022-08-13 08:57:44.866183] 
+Collecting mistune<2,>=0.8.1
+  Downloading mistune-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting tinycss2
+  Downloading tinycss2-1.1.1-py3-none-any.whl (21 kB)
+Collecting bleach
+  Downloading bleach-5.0.1-py3-none-any.whl (160 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.9/160.9 KB 205.5 MB/s eta 0:00:00[2022-08-13 08:57:45.157389] 
+Collecting fastjsonschema
+  Downloading fastjsonschema-2.16.1-py3-none-any.whl (22 kB)
+Collecting argon2-cffi-bindings
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (86 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.2/86.2 KB 141.5 MB/s eta 0:00:00[2022-08-13 08:57:45.418297] 
+Collecting cffi>=1.0.1
+  Downloading cffi-1.15.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (441 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 441.2/441.2 KB 140.3 MB/s eta 0:00:00[2022-08-13 08:57:45.970744] 
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 KB 181.3 MB/s eta 0:00:00[2022-08-13 08:57:46.201207] 
+Building wheels for collected packages: hydralit_components, hydralit, validators, bs4
+  Building wheel for hydralit_components (setup.py): started
+  Building wheel for hydralit_components (setup.py): finished with status 'done'
+  Created wheel for hydralit_components: filename=hydralit_components-1.0.10-py3-none-any.whl size=24347405 sha256=de32c3520a50dd3f9a07343ccb98733520fc19cdef222c6cdbf792104635da13
+  Stored in directory: /tmp/pip-ephem-wheel-cache-btd7qqxp/wheels/5d/5b/e9/3b7a3a5f9f470fd6745417860bc8dc7a68fd6862b19a9290cd
+  Building wheel for hydralit (setup.py): started
+  Building wheel for hydralit (setup.py): finished with status 'done'
+  Created wheel for hydralit: filename=hydralit-1.0.13-py3-none-any.whl size=24600 sha256=e80d688ce24293d0c7a8c959a4aaab4864186d186103f811aa7d54452aa919dc
+  Stored in directory: /tmp/pip-ephem-wheel-cache-btd7qqxp/wheels/d4/f9/8a/8c1f3f59ae165452da857e8f247cae74bfc82a2ce3dfca58b3
+  Building wheel for validators (setup.py): started
+  Building wheel for validators (setup.py): finished with status 'done'
+  Created wheel for validators: filename=validators-0.20.0-py3-none-any.whl size=19579 sha256=49f97bed6717e0ebc3300054979da7d5d89927de51bbb724e30ba21e170ba4a8
+  Stored in directory: /tmp/pip-ephem-wheel-cache-btd7qqxp/wheels/2d/f0/a8/1094fca7a7e5d0d12ff56e0c64675d72aa5cc81a5fc200e849
+  Building wheel for bs4 (setup.py): started
+  Building wheel for bs4 (setup.py): finished with status 'done'
+  Created wheel for bs4: filename=bs4-0.0.1-py3-none-any.whl size=1257 sha256=3e67327f48ec4a37728a957b56b0b4151aea6ba7a51bf5461a8182f2e228da92
+  Stored in directory: /tmp/pip-ephem-wheel-cache-btd7qqxp/wheels/73/2b/cb/099980278a0c9a3e57ff1a89875ec07bfa0b6fcbebb9a8cad3
+Successfully built hydralit_components hydralit validators bs4
+Installing collected packages: webencodings, wcwidth, Send2Trash, pytz, pure-eval, ptyprocess, pickleshare, mistune, ipython-genutils, fastjsonschema, executing, commonmark, backcall, zipp, watchdog, urllib3, tzdata, typing-extensions, traitlets, tornado, toolz, toml, tinycss2, threadpoolctl, tenacity, soupsieve, smmap, six, setuptools, semver, pyzmq, PyYAML, pyrsistent, pyparsing, pympler, pygments, pycparser, psutil, protobuf, prompt-toolkit, prometheus-client, pillow, pexpect, parso, pandocfilters, numpy, nest-asyncio, MarkupSafe, lxml, kiwisolver, jupyterlab-widgets, jupyterlab-pygments, joblib, idna, fonttools, entrypoints, defusedxml, decorator, debugpy, cycler, compress_pickle, click, charset-normalizer, certifi, cachetools, blinker, attrs, validators, terminado, scipy, rich, requests, pytz-deprecation-shim, python-dateutil, pyarrow, plotly, packaging, matplotlib-inline, jupyter-core, jsonschema, Jinja2, jedi, importlib-metadata, gitdb, cffi, bleach, beautifulsoup4, asttokens, tzlocal, stack-data, scikit-learn, pandas, nbformat, matplotlib, markdown, jupyter-client, gitpython, bs4, bokeh, argon2-cffi-bindings, seaborn, nbclient, ipython, argon2-cffi, altair, nbconvert, ipykernel, notebook, widgetsnbextension, ipywidgets, pydeck, streamlit, hydralit_components, hydralit
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 63.4.1
+    Uninstalling setuptools-63.4.1:
+      Successfully uninstalled setuptools-63.4.1
+Successfully installed Jinja2-3.1.2 MarkupSafe-2.1.1 PyYAML-6.0 Send2Trash-1.8.0 altair-4.2.0 argon2-cffi-21.3.0 argon2-cffi-bindings-21.2.0 asttokens-2.0.7 attrs-22.1.0 backcall-0.2.0 beautifulsoup4-4.11.1 bleach-5.0.1 blinker-1.5 bokeh-2.4.3 bs4-0.0.1 cachetools-5.2.0 certifi-2022.6.15 cffi-1.15.1 charset-normalizer-2.1.0 click-8.1.3 commonmark-0.9.1 compress_pickle-2.1.0 cycler-0.11.0 debugpy-1.6.2 decorator-5.1.1 defusedxml-0.7.1 entrypoints-0.4 executing-0.9.1 fastjsonschema-2.16.1 fonttools-4.34.4 gitdb-4.0.9 gitpython-3.1.27 hydralit-1.0.13 hydralit_components-1.0.10 idna-3.3 importlib-metadata-4.12.0 ipykernel-6.15.1 ipython-8.4.0 ipython-genutils-0.2.0 ipywidgets-7.7.1 jedi-0.18.1 joblib-1.1.0 jsonschema-4.9.1 jupyter-client-7.3.4 jupyter-core-4.11.1 jupyterlab-pygments-0.2.2 jupyterlab-widgets-1.1.1 kiwisolver-1.4.4 lxml-4.9.1 markdown-3.4.1 matplotlib-3.5.3 matplotlib-inline-0.1.3 mistune-0.8.4 nbclient-0.6.6 nbconvert-6.5.3 nbformat-5.4.0 nest-asyncio-1.5.5 notebook-6.4.12 numpy-1.23.1 packaging-21.3 pandas-1.4.3 pandocfilters-1.5.0 parso-0.8.3 pexpect-4.8.0 pickleshare-0.7.5 pillow-9.2.0 plotly-5.10.0 prometheus-client-0.14.1 prompt-toolkit-3.0.30 protobuf-3.20.1 psutil-5.9.1 ptyprocess-0.7.0 pure-eval-0.2.2 pyarrow-9.0.0 pycparser-2.21 pydeck-0.7.1 pygments-2.12.0 pympler-1.0.1 pyparsing-3.0.9 pyrsistent-0.18.1 python-dateutil-2.8.2 pytz-2022.2.1 pytz-deprecation-shim-0.1.0.post0 pyzmq-23.2.1 requests-2.28.1 rich-12.5.1 scikit-learn-1.1.2 scipy-1.9.0 seaborn-0.11.2 semver-2.13.0 setuptools-64.0.3 six-1.16.0 smmap-5.0.0 soupsieve-2.3.2.post1 stack-data-0.3.0 streamlit-1.12.0 tenacity-8.0.1 terminado-0.15.0 threadpoolctl-3.1.0 tinycss2-1.1.1 toml-0.10.2 toolz-0.12.0 tornado-6.2 traitlets-5.3.0 typing-extensions-4.3.0 tzdata-2022.2 tzlocal-4.2 urllib3-1.26.11 validators-0.20.0 watchdog-2.1.9 wcwidth-0.2.5 webencodings-0.5.1 widgetsnbextension-3.6.1 zipp-3.8.1
+WARNING: You are using pip version 22.0.3; however, version 22.2.2 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+Checking if Streamlit is installed
+2022-08-13 08:58:46.121 INFO    matplotlib.font_manager: generated new fontManager
+Found Streamlit version 1.12.0 in the environment
+Streamlit 1.12.0 is present. Installing click 8
+Collecting click==8
+  Downloading click-8.0.0-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.9/96.9 KB 7.4 MB/s eta 0:00:00[2022-08-13 08:58:47.984541] 
+Installing collected packages: click
+  Attempting uninstall: click
+    Found existing installation: click 8.1.3
+    Uninstalling click-8.1.3:
+      Successfully uninstalled click-8.1.3
+Successfully installed click-8.0.0
+WARNING: You are using pip version 22.0.3; however, version 22.2.2 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+Streamlit 1.12.0 is present. Installing protobuf 3.20.1
+Collecting protobuf==3.20.1
+  Downloading protobuf-3.20.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 28.8 MB/s eta 0:00:00[2022-08-13 08:58:50.214473] 
+Installing collected packages: protobuf
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.20.1
+    Uninstalling protobuf-3.20.1:
+      Successfully uninstalled protobuf-3.20.1
+Successfully installed protobuf-3.20.1
+WARNING: You are using pip version 22.0.3; however, version 22.2.2 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[08:58:52] 🐍 Python dependencies were installed from /app/diwan/requirements.txt using pip.
+Check if streamlit is installed
+Streamlit is already installed
+[08:58:53] 📦 Processed dependencies!
+
+
+
+2022-08-13 08:59:16.435 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/appuser/venv/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 556, in _run_script
+    exec(code, module.__dict__)
+  File "/app/diwan/app.py", line 15, in <module>
+    from streamlit_metrics import metric, metric_row
+ModuleNotFoundError: No module named 'streamlit_metrics'
+2022-08-13 18:00:42.776 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/appuser/venv/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 556, in _run_script
+    exec(code, module.__dict__)
+  File "/app/diwan/app.py", line 15, in <module>
+    from streamlit_metrics import metric, metric_row
+ModuleNotFoundError: No module named 'streamlit_metrics'
