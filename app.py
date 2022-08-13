@@ -272,7 +272,7 @@ def Home():
 
  ### Importing the table ive made on the queuing model using csv github
  st.write('The following button has three models depending on demand Diwan should hire accordingly with its following costs')
- df1= pd.read_csv('https://raw.githubusercontent.com/SalemGrayzi/status/main/Queing%20Model.csv')
+ df1= pd.read_csv('https://raw.githubusercontent.com/SalemGrayzi1/Diwan/main/Queing%20Model.csv')
 
 ## defining a code to convert df1 into utf-8
  def convert_df(df1):
