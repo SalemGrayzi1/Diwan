@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+scikit-learn
+seaborn
+markdown
+hydralit_components
+hydralit
+streamlit_metrics
+millify
