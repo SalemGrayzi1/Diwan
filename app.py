@@ -29,7 +29,7 @@ st.write('Done Loading')
 
 st.balloons()
 ### Importing csv file from github onto streamlit
-df= pd.read_csv('https://raw.githubusercontent.com/SalemGrayzi/status/main/Statuscsv.csv')
+df= pd.read_csv('https://raw.githubusercontent.com/SalemGrayzi1/Diwan/main/Statuscsv.csv')
 
 ### Filling missing values in Adress column with the mode
 df['Address'] =  df['Address'].fillna('بشامون')
