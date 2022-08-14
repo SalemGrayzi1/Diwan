@@ -7,3 +7,4 @@ bokeh
 markdown
 hydralit_components
 hydralit
+streamlit-metrics
