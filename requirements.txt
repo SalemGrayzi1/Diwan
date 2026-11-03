@@ -8,3 +8,4 @@ markdown
 hydralit_components
 hydralit
 streamlit-metrics
+altair==4.2.2
