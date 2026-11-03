@@ -15,6 +15,7 @@ import time
 from streamlit_metrics import metric, metric_row
 import io
 import hydralit as hy
+-m pip install --upgrade streamlit altair
 st.set_page_config(layout="wide")
 
 ### Building the HydraApp
